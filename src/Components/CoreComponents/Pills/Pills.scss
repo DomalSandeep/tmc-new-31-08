@@ -1,0 +1,14 @@
+.PillsContent {
+    img{
+        margin-top: 20px;
+    }
+    
+    .horizBullets2 {
+        gap: 70px;
+        justify-content:normal;
+        
+        ul li {
+            list-style: upper-alpha;
+        }
+    }
+}

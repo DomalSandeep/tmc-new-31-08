@@ -1,0 +1,18 @@
+.IconsContent {
+  .infoBox {
+    a {
+      color: inherit; 
+      text-decoration: underline;
+      
+      &:hover {
+        color: inherit; 
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    margin-top: 20px;
+    width: auto;
+  }
+}

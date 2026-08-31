@@ -1,0 +1,1 @@
+export {default as PageHeaders} from './PageHeaders';

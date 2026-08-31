@@ -1,0 +1,40 @@
+.InformationArchitectureContent {
+  height: 100vh;
+
+  .ia-description {
+    font-size: 18px;
+    line-height: 140%;
+    margin: 16px 0 60px 0;
+    font-weight: 400;
+  }
+
+  .ia-buttons {
+    display: flex;
+    gap: 36px;
+
+    .btn-view,
+    .btn-download {
+      flex: 1;
+      min-width: 120px;
+      max-width: 180px;
+      text-align: center;
+      padding: 12px 24px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .btn-view {
+      background: #0065b2;
+      color: white;
+    }
+
+    .btn-download {
+      background: transparent;
+      color: #0065b2;
+      border: 2px solid #0065b2;
+    }
+  }
+}

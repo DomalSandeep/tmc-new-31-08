@@ -1,0 +1,46 @@
+@import '../../../var';
+
+.ResponsiveDesignContent{
+    .example-images-grid {
+    margin-top: 20px;
+    
+    h2 {
+        margin-bottom: 24px;
+    }
+    
+    .example-images {
+        display: flex;
+        flex-direction: row;  // Row layout (side by side)
+        gap: 25px;  // Gap between Desktop Homepage and Mobile Homepage pairs
+        flex-wrap: wrap;  // Wrap on smaller screens
+        padding: 20px;
+    background: #F3F3F3;
+    border-radius: 16px;
+        
+        .image-pair {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            
+            // Add 25px gap between Mobile Homepage and Desktop Inner
+            &:nth-child(2) {
+                margin-right: 95px;
+            }
+            
+            img {
+                width: 100%;
+                height: auto;
+                // object-fit: cover;
+            }
+            
+            .image-label {
+font-weight: 700;
+line-height: 180%;
+letter-spacing: 0%;
+color: #696969;
+text-align: center;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,15 @@
+@import '../../../var';
+
+.NavigationContent{
+    .twocolumntext{
+        
+        &.mrgtp{
+            // margin-top: 40px;
+        }
+
+        h4{
+            font-size: $fs-24;
+            margin-bottom: 10px;
+        }
+    }
+}

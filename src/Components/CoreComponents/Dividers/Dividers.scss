@@ -1,0 +1,15 @@
+.DividersContent {
+  .imageWrapBg {
+    display: flex;
+
+    .pagecont {
+      &:first-child {
+        width: 62%;
+      }
+
+      &:last-child {
+        width: 35%;
+      }
+    }
+  }
+}

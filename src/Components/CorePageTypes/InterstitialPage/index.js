@@ -1,0 +1,1 @@
+export {default as InterstitialPage} from './InterstitialPage';

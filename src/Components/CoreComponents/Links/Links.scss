@@ -1,0 +1,22 @@
+.LinksContent {
+    .imageWrapBg2 {
+        img {
+            width: 30%;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+        .full-width {
+            width: 75%;
+            margin-top: 20px;
+        }
+    }
+    .link-with-icon {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        
+        img {
+            width: auto;
+        }
+    }
+}

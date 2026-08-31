@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "Persuasion.scss",
+        "../../../_var.scss"
+    ],
+    "names": [],
+    "file": "Persuasion.css"
+}

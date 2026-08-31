@@ -1,0 +1,74 @@
+.Sidebar {
+  background: #E6F0FF;
+  height: 100%;  
+    width: 280px;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  padding-bottom: 50px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+    scrollbar-width: none;
+
+
+  a {
+    color: #333333;
+
+    &.active {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+
+  // Depth 0 — top level (Guidelines, Core Page Types, Core Components)
+  [data-depth="0"] > li {
+    padding: 20px 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-top: solid 1px;
+  }
+
+  // Depth 1 — children (1. Palettes, 2. Typography etc.)
+  [data-depth="1"] {
+    padding: 15px 0px 0px 15px;
+    text-transform: initial;
+
+    > li {
+      padding-bottom: 20px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      a {
+        text-transform: capitalize;
+        display: flex;
+
+        span:first-child {
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+
+  // Depth 2 — subMenu (3.1 Text with media etc.)
+  [data-depth="2"] {
+    padding: 15px 0px 0px 15px;
+
+    > li {
+      padding-bottom: 15px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      a {
+        font-size:14px;
+      }
+    }
+  }
+}

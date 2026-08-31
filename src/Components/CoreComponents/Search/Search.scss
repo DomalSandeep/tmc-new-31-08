@@ -1,0 +1,29 @@
+.SearchContent {
+    .horizBullets2 ul li {
+        list-style: upper-alpha;
+    }
+    
+    .flex-row {
+        display: flex;
+        gap: 20px;
+        
+        ul {
+            flex: 1;
+        }
+        
+        p {
+            flex: 1;
+        }
+        
+    
+    }
+    
+    .pt-16 {
+        margin-top: 16px;
+    }
+    
+    .full-width {
+        width: 100%;
+        height: auto;
+    }
+}

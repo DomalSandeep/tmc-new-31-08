@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,eAFW,CAEX,UAAU,CAAA;EACN,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,QAAQ;CACnB",
+    "sources": [
+        "Banners.scss"
+    ],
+    "names": [],
+    "file": "Banners.css"
+}

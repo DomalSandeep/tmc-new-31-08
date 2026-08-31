@@ -1,0 +1,214 @@
+@import "../../../var";
+
+.TypographyContent {
+  section {
+    padding: 20px 0px;
+  }
+  
+  section.space {
+    padding: 20px 0px;
+  }
+  
+
+  
+  .desktop-table {
+    border-bottom: 1px solid #8F8F8F;
+    border-bottom-style: dashed;
+    padding-bottom: 40px;
+  }
+  
+  .headingStyle {
+    display: flex;
+    padding-top: 40px;
+    gap: 40px;
+
+    .head-body {
+      max-width: 160px;
+
+      h3 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0px;
+      }
+    }
+
+    .fontStyle {
+      ul {
+        display: flex;
+        align-items: center;
+        font-size: $fs-24;
+        color: #828282;
+
+        &:first-child {
+          li {
+            color: #828282;
+            margin-bottom: 28px;
+          }
+        }
+
+        li {
+          font-size: $fs-16;
+          margin-bottom: 54px;
+          color: #000000;
+
+          &:first-child {
+            min-width: 500px;
+          }
+          &:nth-child(2) {
+            min-width: 150px;
+          }
+        }
+
+        .hd {
+          font-weight: 700 !important;
+          color: #333333;
+
+          span {
+            font-weight: normal;
+            display: block;
+            padding-top: 10px;
+          }
+        }
+        
+        .f80 { font-size: 80px; }
+        .f44 { font-size: 44px; }
+        .f40 { font-size: 40px; }
+        .f36 { font-size: 36px; }
+        .f32 { font-size: 32px; }
+        .f30 { font-size: 30px; }
+        .f28 { font-size: 28px; }
+        .f24 { font-size: 24px; }
+        .f20 { font-size: 20px; }
+        .f18 { font-size: 18px; }
+        .f16 { font-size: 16px; }
+        .f14 { font-size: 14px; }
+        .f12 { font-size: 12px; }
+        .f10 { font-size: 10px; }
+      }
+    }
+  }
+
+  .bodyStyle {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+
+    .head-body {
+      max-width: 160px;
+
+      h3 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0px;
+      }
+    }
+
+    .fontStyle {
+      ul {
+        display: flex;
+        align-items: center;
+        font-size: $fs-24;
+        color: #828282;
+
+        &:first-child {
+          li {
+            color: #828282;
+            margin-bottom: 28px;
+          }
+        }
+
+        li {
+          font-size: $fs-16;
+          margin-bottom: 28px;
+          color: #000000;
+
+          &:first-child {
+            min-width: 500px;
+          }
+          &:nth-child(2) {
+            min-width: 150px;
+          }
+        }
+
+        .hd {
+          font-weight: 400 !important;
+          color: #333333;
+
+          span {
+            font-weight: normal;
+            display: block;
+            padding-top: 10px;
+          }
+        }
+        
+        .f80 { font-size: 80px; }
+        .f44 { font-size: 44px; }
+        .f40 { font-size: 40px; }
+        .f36 { font-size: 36px; }
+        .f32 { font-size: 32px; }
+        .f30 { font-size: 30px; }
+        .f28 { font-size: 28px; }
+        .f24 { font-size: 24px; }
+        .f20 { font-size: 20px; }
+        .f18 { font-size: 18px; }
+        .f16 { font-size: 16px; }
+        .f14 { font-size: 14px; }
+        .f12 { font-size: 12px; }
+        .f10 { font-size: 10px; }
+      }
+    }
+  }
+
+  .mobile-table {
+    .headingStyle {
+      padding-top: 60px;
+      
+      .fontStyle {
+        ul li {
+          margin-bottom: 28px;
+        }
+      }
+    }
+  }
+
+  .textBg {
+    background: #f8f8f8;
+    padding-bottom: 24px;
+    margin-top: 24px;
+
+    h4 {
+      padding: 20px 0px 20px 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0px auto 24px auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .TypographyContent {
+    .headingStyle {
+      flex-direction: column;
+      
+      .fontStyle {
+        ul li:first-child {
+          min-width: 460px;
+        }
+      }
+    }
+    
+    .bodyStyle {
+      flex-direction: column;
+      
+      .fontStyle {
+        ul li:first-child {
+          min-width: 460px;
+        }
+      }
+    }
+  }
+}

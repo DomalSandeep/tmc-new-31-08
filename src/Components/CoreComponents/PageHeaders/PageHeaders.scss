@@ -1,0 +1,14 @@
+.PageHeadersContent {
+    .horizBullets2 {
+        gap: 35px;
+        justify-content: flex-start;
+    }.no-margin {
+        ul.bullets li {
+            margin-left: 0;
+        }
+    }
+    .twocolumntext > div {
+    width: 100%; 
+}
+    
+}

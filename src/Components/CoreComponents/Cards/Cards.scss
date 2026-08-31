@@ -1,0 +1,14 @@
+.CardsContent{
+
+    .bullets {
+    margin-bottom: 28px;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .note-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+}

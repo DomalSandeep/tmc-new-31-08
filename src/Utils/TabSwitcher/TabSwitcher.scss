@@ -1,0 +1,77 @@
+.tab-switcher-container {
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.tab-switcher-header {
+    display: flex;
+    gap: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tab-switcher-container.dual-colours .tab-switcher-header {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.tab-switcher-container.dual-colours .tab-btn {
+    font-size: 14px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding-bottom: 14px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 0%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab-btn.active {
+    color: #0065b2;
+}
+
+.tab-btn.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #0065b2;
+}
+
+.color-box {
+    display: flex;
+    width: 64px;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.color1 {
+    width: 50%;
+}
+
+.color2 {
+    width: 50%;
+}
+
+.tab-switcher-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    min-height: 200px;
+}

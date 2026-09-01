@@ -15,6 +15,7 @@ import {ResponsiveDesign} from './Components/Guidelines/ResponsiveDesign';
 import {GridsAndSpacing} from './Components/Guidelines/GridsAndSpacing';
 
 import { PreloginHomepage } from './Components/CorePageTypes/PreloginHomepage';
+import {HomepageSelector} from './Components/CorePageTypes/HomepageSelector'
 import { SectionLandingPage } from './Components/CorePageTypes/SectionLandingPage';
 import { TextWithMediaPage } from './Components/CorePageTypes/TextWithMediaPage';
 import { CardList } from './Components/CorePageTypes/CardList';
@@ -108,10 +109,12 @@ const App = () => {
             <Route path="/guidelines/navigation" element={<Navigation />} />
             <Route path="/guidelines/responsive-design" element={<ResponsiveDesign />} />
             <Route path="/guidelines/grids-and-spacing" element={<GridsAndSpacing />} />
+            
 
             {/* Core Page Types */}
             <Route path="/core-page-type" element={<CorePageTypes />} />
             <Route path="/core-page-type/home-page" element={<PreloginHomepage />} />
+            <Route path="/core-page-type/home-page-selector" element={<HomepageSelector/>} />
             <Route path="/core-page-type/section-landing-page" element={<SectionLandingPage />} />
             <Route path="/core-page-type/text-with-media-page" element={<TextWithMediaPage />} />
             <Route path="/core-page-type/card-list" element={<CardList />} />

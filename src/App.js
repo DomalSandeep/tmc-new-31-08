@@ -46,6 +46,7 @@ import {RelatedLinksPanel} from './Components/CoreComponents/RelatedLinksPanel';
 import { HeroBanner } from './Components/CoreComponents/HeroBanner';
 import { Icons } from './Components/CoreComponents/Icons';
 import { Links } from './Components/CoreComponents/Links'; 
+import { Metrics } from './Components/CoreComponents/Metrics';
 import { SuccessConfirmationPanel } from './Components/CoreComponents/SuccessConfirmationPanel';
 import { Table } from './Components/CoreComponents/Table';
 import { Pills } from './Components/CoreComponents/Pills';
@@ -144,6 +145,7 @@ const App = () => {
             <Route path="/core-components/hero-banner" element={<HeroBanner />} />
             <Route path="/core-components/icons" element={<Icons />} />
             <Route path="/core-components/links" element={<Links />} />
+            <Route path="/core-components/metrics" element={<Metrics/>} />
             <Route path="/core-components/success-confirmation-panel" element={<SuccessConfirmationPanel />} />
             <Route path="/core-components/table" element={<Table />} />
             <Route path="/core-components/pills" element={<Pills />} />

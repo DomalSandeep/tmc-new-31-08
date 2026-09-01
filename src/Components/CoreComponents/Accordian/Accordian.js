@@ -34,6 +34,7 @@ const Accordian = () => {
                             </div>
                         </div>
                     </section>
+                    
                     <section>
                         <div className="titlebdr">VARIANTS</div>
                         <div className='imageWrapBg padbtm'>

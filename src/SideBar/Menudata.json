@@ -45,59 +45,63 @@
           "title": "1. Home page",
           "link": "home-page"
         },
+         {
+          "title": "2. Home page selector ",
+          "link": "home-page-selector"
+        },
         {
-          "title": "2. Section landing page",
+          "title": "3. Section landing page",
           "link": "section-landing-page"
         },
         {
-          "title": "3. Information Pages",
+          "title": "4. Information Pages",
           "link": "text-with-media-page", 
           "subMenu": [
             {
-              "title": "3.1 Text with media Page",
+              "title": "4.1 Text with media Page",
               "link": "text-with-media-page"
             },
             {
-              "title": "3.2 Card List Page",
+              "title": "4.2 Card List Page",
               "link": "card-list"
             },
             {
-              "title": "3.3 Card List with Media Page",
+              "title": "4.3 Card List with Media Page",
               "link": "card-list-with-media-page"
             },
             {
-              "title": "3.4 Accordion list Page",
+              "title": "4.4 Accordion list Page",
               "link": "accordion-list-page"
             }
           ]
 
         },
         {
-            "title": "4. Table Pages",
+            "title": "5. Table Pages",
             "link": "table-pages"
         },
         {
-            "title": "5. Grid Of Cards",
+            "title": "6. Grid Of Cards",
             "link": "grid-of-cards"
         },
         {
-            "title": "6. Form Page",
+            "title": "7. Form Page",
             "link": "forms"
         },
         {
-            "title": "7. Preview Page",
+            "title": "8. Preview Page",
             "link": "preview-page"
         },
         {
-            "title": "8. Success Page",
+            "title": "9. Success Page",
             "link": "success-page"
         },
         {
-            "title": "9. Interstitial Page",
+            "title": "10. Interstitial Page",
             "link": "choose-interstitial-page"
         },
         {
-            "title": "10. Search Results",
+            "title": "11. Search Results",
             "link": "search-results"
         }
       ]

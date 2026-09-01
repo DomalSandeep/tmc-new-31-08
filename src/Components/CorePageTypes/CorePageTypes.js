@@ -22,19 +22,20 @@ const CorePageTypes = () => {
             </div>
             <div className='navigation'>
               <Link to={'/core-page-type/home-page'}>1. Home Page</Link>
-              <Link to={'/core-page-type/section-landing-page'}>2. Section landing page</Link>
-              <Link to={'/core-page-type/text-with-media-page'}>3. Information pages</Link>
-              <Link className='sub-menu' to={'/core-page-type/text-with-media-page'}>3.1 Text with media page</Link>
-              <Link className='sub-menu' to={'/core-page-type/card-list'}>3.2 Card list page</Link>
-              <Link className='sub-menu' to={'/core-page-type/card-list-with-media-page'}>3.3 Card list with media page</Link>
-              <Link className='sub-menu' to={'/core-page-type/accordion-list-page'}>3.4 Accordion list page</Link>
-              <Link to={'/core-page-type/table-pages'}>4. Table page</Link>
-              <Link to={'/core-page-type/grid-of-cards'}>5. Grid of cards</Link>
-              <Link to={'/core-page-type/forms'}>6. Form page</Link>
-              <Link to={'/core-page-type/preview-page'}>7. Preview page</Link>
-              <Link to={'/core-page-type/success-page'}>8. Success page</Link>
-              <Link to={'/core-page-type/choose-interstitial-page'}>9. Interstitial page</Link>
-              <Link to={'/core-page-type/search-results'}>10. Search Results</Link>
+              <Link to={'/core-page-type/home-page-selector'}>2. Home page Selector</Link>
+              <Link to={'/core-page-type/section-landing-page'}>3. Section landing page</Link>
+              <Link to={'/core-page-type/text-with-media-page'}>4. Information pages</Link>
+              <Link className='sub-menu' to={'/core-page-type/text-with-media-page'}>4.1 Text with media page</Link>
+              <Link className='sub-menu' to={'/core-page-type/card-list'}>4.2 Card list page</Link>
+              <Link className='sub-menu' to={'/core-page-type/card-list-with-media-page'}>4.3 Card list with media page</Link>
+              <Link className='sub-menu' to={'/core-page-type/accordion-list-page'}>4.4 Accordion list page</Link>
+              <Link to={'/core-page-type/table-pages'}>5. Table page</Link>
+              <Link to={'/core-page-type/grid-of-cards'}>6. Grid of cards</Link>
+              <Link to={'/core-page-type/forms'}>7. Form page</Link>
+              <Link to={'/core-page-type/preview-page'}>8. Preview page</Link>
+              <Link to={'/core-page-type/success-page'}>9. Success page</Link>
+              <Link to={'/core-page-type/choose-interstitial-page'}>10. Interstitial page</Link>
+              <Link to={'/core-page-type/search-results'}>11. Search Results</Link>
             </div>
           </div>
         </div>

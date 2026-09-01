@@ -34,7 +34,9 @@ const HeroBanner = () => {
                         'F. Highlight tag - height 44px, typography style - Desktop heading 3',
                         'G. Navigation indicators'
                     ],
-                    image: require('../../../Assets/Images/hero-banner-image-1.webp')
+                    image: require('../../../Assets/Images/hero-banner-image-1.webp'),
+
+
                 },
 
                 mobile: {
@@ -88,7 +90,9 @@ const HeroBanner = () => {
                         'D. Image frame 1: 450px by 644px ',
                         'E. Image frame 2: 450 px by 428px'
                     ],
-                    image: require('../../../Assets/Images/hero-banner-image-1.webp')
+                    image: require('../../../Assets/Images/hero-banner-spacingg-desktop-option-b1.webp'),
+                    image_2: require('../../../Assets/Images/hero-banner-anatomy-desktop-option-b2.webp'),
+
                 },
 
                 mobile: {
@@ -100,13 +104,14 @@ const HeroBanner = () => {
                         'D. Image frame 1: 156px by 225px',
                         'E. Image frame 2: 156 px by 150px'
                     ],
-                    image: require('../../../Assets/Images/hero-banner-image-2.webp')
+                    image: require('../../../Assets/Images/hero-banner-spacingg-mobile-option-b1.webp'),
+                    image_2: require('../../../Assets/Images/hero-banner-anatomy-desktop-option-b2.webp')
                 }
             },
 
             spacing: {
-                desktop: require('../../../Assets/Images/hero-banner-image-1.webp'),
-                mobile: require('../../../Assets/Images/hero-banner-image-2.webp')
+                desktop: require('../../../Assets/Images/hero-banner-spacing-desktop-option-b.webp'),
+                mobile: require('../../../Assets/Images/hero-banner-spacing-mobile-option-b.webp'),
             },
 
             interaction: ['Two vertical image column scroll upward continuously in an infinite loop',
@@ -157,7 +162,7 @@ const HeroBanner = () => {
                         'C. Buttons (optional) Mobile Primary Button & Hero Secondary Button (On mobile in the hero section CTAs get stacked)',
                         'D. Image or video - 360px by 640px',
                         'E. Hero Overlay - linear gradient, #000000 (0% alpha) to #000000 (70% alpha), right to left'
-                        
+
                     ],
                     image: require('../../../Assets/Images/hero-banner-image-2.webp')
                 }
@@ -165,7 +170,9 @@ const HeroBanner = () => {
 
             spacing: {
                 desktop: require('../../../Assets/Images/hero-banner-image-1.webp'),
-                mobile: require('../../../Assets/Images/hero-banner-image-2.webp')
+                desktop_2: require('../../../Assets/Images/hero-banner-image-1.webp'),
+                mobile: require('../../../Assets/Images/hero-banner-image-2.webp'),
+                desktop_2: require('../../../Assets/Images/hero-banner-image-1.webp')
             },
 
             interaction: '',
@@ -245,7 +252,7 @@ const HeroBanner = () => {
 
                                 <div className='dashed-border'>
                                     <p>
-                                        <strong>1. Accordion with Questions</strong>
+                                        <strong>Option A: Full width Hero with carousel</strong>
                                     </p>
 
                                     <br />
@@ -259,7 +266,7 @@ const HeroBanner = () => {
 
                                 <div className='dashed-border pt-40'>
                                     <p>
-                                        <strong>2. Accordion with Table</strong>
+                                        <strong>Option B: Hero with dynamic image/video display</strong>
                                     </p>
 
                                     <img
@@ -271,7 +278,7 @@ const HeroBanner = () => {
 
                                 <div className='pt-40'>
                                     <p>
-                                        <strong>3. Accordion with Detailed Content</strong>
+                                        <strong>Option C: Concise Hero Banner</strong>
                                     </p>
 
                                     <img
@@ -289,7 +296,7 @@ const HeroBanner = () => {
 
                                 <div className='dashed-border'>
                                     <p>
-                                        <strong>1. Accordion with Questions</strong>
+                                        <strong>Option A: Full width Hero with carousel</strong>
                                     </p>
 
                                     <br />
@@ -303,7 +310,7 @@ const HeroBanner = () => {
 
                                 <div className='dashed-border pt-40'>
                                     <p>
-                                        <strong>2. Accordion with Table</strong>
+                                        <strong>Option B: Hero with dynamic image/video display</strong>
                                     </p>
 
                                     <img
@@ -315,7 +322,7 @@ const HeroBanner = () => {
 
                                 <div className='pt-40'>
                                     <p>
-                                        <strong>3. Accordion with Detailed Content</strong>
+                                        <strong>Option C: Concise Hero Banner</strong>
                                     </p>
 
                                     <img
@@ -326,6 +333,21 @@ const HeroBanner = () => {
                                 </div>
                             </div>
                         </div>
+                        <p class="title">Desktop & Mobile</p>
+                        <ul class="">
+                            <li>
+                                <b>Option A: Full width Hero with carousel</b> <br />
+
+                                Used when a strong, relevant visual is available to support the message and enhance engagement.                            </li>
+                            <br></br>
+                            <li>
+                                <b>Option B: Hero with multi-image display</b> <br />
+                                Can be used to display multiple images at once.                            </li>
+                            <br></br>
+                            <li>
+                                <b>Option C: Concise Hero Banner</b> <br />
+                                Keeps the hero section relatively more condensed.                             </li>
+                        </ul>
                     </section>
 
                     {/* TAB SWITCHER */}
@@ -340,7 +362,7 @@ const HeroBanner = () => {
 
                     <section>
                         <div className="titlebdr">
-                            ANATOMY
+                            ANATOMY OF {activeTab === 'option-a' ? 'OPTION A' : activeTab === 'option-b' ? 'OPTION B' : 'OPTION C'}
                         </div>
 
                         <div className='imageWrapBg2'>
@@ -356,10 +378,7 @@ const HeroBanner = () => {
                                         </strong>
                                     </p>
 
-                                    <div className="container-800">
-
-
-
+                                    <div className="flex-b container">
                                         <div className="horizBullets2 ">
                                             <ul className="bullets">
                                                 {currentVariant.anatomy.desktop.items.map(
@@ -371,13 +390,21 @@ const HeroBanner = () => {
                                                 )}
                                             </ul>
 
-
+                                            <img
+                                                className='full-width'
+                                                src={currentVariant.anatomy.desktop.image}
+                                                alt=""
+                                            />
                                         </div>
-                                        <img
-                                            className='full-width'
-                                            src={currentVariant.anatomy.desktop.image}
-                                            alt=""
-                                        />
+
+                                        <div className='flex-b-sec-img'>
+                                            <img
+                                                src={currentVariant.anatomy.mobile.image_2}
+                                                alt=""
+                                                
+                                            />
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -394,70 +421,91 @@ const HeroBanner = () => {
                                         </strong>
                                     </p>
 
-                                    <div className="horizBullets2">
-                                        <ul className="bullets">
-                                            {currentVariant.anatomy.mobile.items.map(
-                                                (item, index) => (
-                                                    <li key={index}>
-                                                        {item}
-                                                    </li>
-                                                )
-                                            )}
-                                        </ul>
+                                    <div className='flex-b'>
+
+                                        <div className="horizBullets2">
+                                            <ul className="bullets">
+                                                {currentVariant.anatomy.mobile.items.map(
+                                                    (item, index) => (
+                                                        <li key={index}>
+                                                            {item}
+                                                        </li>
+                                                    )
+                                                )}
+                                            </ul>
+                                            <img
+                                                src={currentVariant.anatomy.mobile.image}
+                                                alt=""
+                                            />
+                                        </div>
+
+                                        <div className='flex-b-sec-img'>
+
+                                            <img
+                                                src={currentVariant.anatomy.mobile.image_2}
+                                                alt=""
+                                            />
+
+                                        </div>
                                     </div>
 
-                                    <img
-                                        src={currentVariant.anatomy.mobile.image}
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                         </div>
                     </section>
 
                     <section>
-                        <div className="titlebdr">
-                            SPACING IN PIXELS
-                        </div>
+    <div className="titlebdr">
+        SPACING IN PIXELS
+    </div>
 
-                        <div className='imageWrapBg2'>
-                            <div className='pagecont dashed-border'>
-                                <div className='container-800'>
-                                    <p className='title'>
-                                        Desktop
-                                    </p>
+    <div className='imageWrapBg2'>
+        <div className='pagecont dashed-border'>
+            <div className='container'>
+                <p className='title'>
+                    Desktop
+                </p>
+                <div className="horizBullets2">
+                    <img
+                        className='full-width'
+                        src={currentVariant.spacing.desktop}
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
 
-                                    <img
-                                        className='full-width'
-                                        src={currentVariant.spacing.desktop}
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-
-                            <div className='pagecont pt-40 container-800'>
-                                <div>
-                                    <p className='title'>
-                                        Mobile
-                                    </p>
-
-                                    <img
-                                        src={currentVariant.spacing.mobile}
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+        <div className={`pagecont pt-40 ${activeTab === 'option-b' ? 'container' : 'container-800'}`}>
+            <div>
+                <p className='title'>
+                    Mobile
+                </p>
+                <div className="horizBullets2">
+                    <img
+                        className={activeTab === 'option-b' ? 'full-width' : ''}
+                        src={currentVariant.spacing.mobile}
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
                     <section>
                         <div className="titlebdr mrgbtm">
-                            INTERACTION
+                            INTERACTION {activeTab === 'option-a' ? 'OPTION A' : activeTab === 'option-b' ? 'OPTION B' : 'OPTION C'}
                         </div>
 
-                        <p>
-                            {currentVariant.interaction}
-                        </p>
+                        {Array.isArray(currentVariant.interaction) ? (
+                            <ul className='bullets'>
+                                {currentVariant.interaction.map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p>{currentVariant.interaction}</p>
+                        )}
                     </section>
 
                     <section>
@@ -472,7 +520,8 @@ const HeroBanner = () => {
 
                     <section>
                         <div className='titlebdr'>
-                            GUIDELINES
+                            GUIDELINES FOR {activeTab === 'option-a' ? 'OPTION A' : activeTab === 'option-b' ? 'OPTION B' : 'OPTION C'}
+
                         </div>
 
                         <div className='titlebg'>

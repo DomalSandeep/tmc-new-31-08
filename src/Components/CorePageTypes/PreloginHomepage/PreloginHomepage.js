@@ -30,7 +30,7 @@ const PreloginHomepage = () => {
                 'Enable quick access to appointments, contact details, and directions',
                 'Establish trust with a professional, streamlined presence'
             ],
-            image: require('../../../Assets/Images/pre-login-homepage.webp')
+            image: require('../../../Assets/Images/pre-login-homepage-small.webp')
         },
 
         medium: {
@@ -184,7 +184,6 @@ const PreloginHomepage = () => {
                             </div>
                         </div>
                     </section>
-
                 </div>
             </div>
         </div>

@@ -1,4 +1,13 @@
-.QuickAccessPanelContent{
+.QuickAccessPanelContent {
+  .horizBullets2 {
+    gap: 27px;
+    justify-content: flex-start;
 
-
+    .no-margin{
+        padding-top: 40px;
+    }
+  }
+  .horizBullets2.no-margin{
+        padding-top: 40px;
+    }
 }

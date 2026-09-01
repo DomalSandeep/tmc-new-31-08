@@ -176,47 +176,51 @@
           "link": "links"
         },
         {
-          "title": "18. Page header",
+          "title": "18. Metrics",
+          "link": "metrics"
+        },
+        {
+          "title": "19. Page header",
           "link": "page-headers"
         },
         {
-          "title": "19. Pills",
+          "title": "20. Pills",
           "link": "pills"
         },
         {
-          "title": "20. Quick Access Panel",
+          "title": "21. Quick Access Panel",
           "link": "quick-access-panel"
         },
         {
-          "title": "21. Related links Panel",
+          "title": "22. Related links Panel",
           "link": "related-links-panel"
         },
         {
-          "title": "22. Radio Buttons",
+          "title": "23. Radio Buttons",
           "link": "radio-button"
         },
         {
-          "title": "23. Search bar",
+          "title": "24. Search bar",
           "link": "search"
         },
         {
-          "title": "24. Success Confirmation Panel ",
+          "title": "25. Success Confirmation Panel ",
           "link": "success-confirmation-panel"
         },
         {
-          "title": "25. Tabs",
+          "title": "26. Tabs",
           "link": "tabs"
         },
         {
-          "title": "26. Tables",
+          "title": "27. Tables",
           "link": "table"
         },
         {
-          "title": "27. Video for patient support centre",
+          "title": "28. Video for patient support centre",
           "link": "video-for-patient-support-centre"
         },
         {
-          "title": "28. Wizard",
+          "title": "29. Wizard",
           "link": "wizard"
         }
       ]

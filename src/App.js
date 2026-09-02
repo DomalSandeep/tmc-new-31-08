@@ -15,6 +15,7 @@ import {ResponsiveDesign} from './Components/Guidelines/ResponsiveDesign';
 import {GridsAndSpacing} from './Components/Guidelines/GridsAndSpacing';
 
 import { PreloginHomepage } from './Components/CorePageTypes/PreloginHomepage';
+import {HomepageSelector} from './Components/CorePageTypes/HomepageSelector'
 import { SectionLandingPage } from './Components/CorePageTypes/SectionLandingPage';
 import { TextWithMediaPage } from './Components/CorePageTypes/TextWithMediaPage';
 import { CardList } from './Components/CorePageTypes/CardList';
@@ -46,6 +47,7 @@ import {RelatedLinksPanel} from './Components/CoreComponents/RelatedLinksPanel';
 import { HeroBanner } from './Components/CoreComponents/HeroBanner';
 import { Icons } from './Components/CoreComponents/Icons';
 import { Links } from './Components/CoreComponents/Links'; 
+import { Metrics } from './Components/CoreComponents/Metrics';
 import { SuccessConfirmationPanel } from './Components/CoreComponents/SuccessConfirmationPanel';
 import { Table } from './Components/CoreComponents/Table';
 import { Pills } from './Components/CoreComponents/Pills';
@@ -107,10 +109,12 @@ const App = () => {
             <Route path="/guidelines/navigation" element={<Navigation />} />
             <Route path="/guidelines/responsive-design" element={<ResponsiveDesign />} />
             <Route path="/guidelines/grids-and-spacing" element={<GridsAndSpacing />} />
+            
 
             {/* Core Page Types */}
             <Route path="/core-page-type" element={<CorePageTypes />} />
             <Route path="/core-page-type/home-page" element={<PreloginHomepage />} />
+            <Route path="/core-page-type/home-page-selector" element={<HomepageSelector/>} />
             <Route path="/core-page-type/section-landing-page" element={<SectionLandingPage />} />
             <Route path="/core-page-type/text-with-media-page" element={<TextWithMediaPage />} />
             <Route path="/core-page-type/card-list" element={<CardList />} />
@@ -144,6 +148,7 @@ const App = () => {
             <Route path="/core-components/hero-banner" element={<HeroBanner />} />
             <Route path="/core-components/icons" element={<Icons />} />
             <Route path="/core-components/links" element={<Links />} />
+            <Route path="/core-components/metrics" element={<Metrics/>} />
             <Route path="/core-components/success-confirmation-panel" element={<SuccessConfirmationPanel />} />
             <Route path="/core-components/table" element={<Table />} />
             <Route path="/core-components/pills" element={<Pills />} />

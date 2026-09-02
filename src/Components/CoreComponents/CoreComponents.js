@@ -38,17 +38,18 @@ const CoreComponents = () => {
               <Link to={'/core-components/text-input'}>15. Input fields</Link>
               <Link to={'/core-components/information-panel'}>16. Information Panel</Link>
               <Link to={'/core-components/links'}>17. Links</Link>
-              <Link to={'/core-components/page-headers'}>18. Page header</Link>
-              <Link to={'/core-components/pills'}>19. Pills</Link>
-              <Link to={'/core-components/quick-access-panel'}>20. Quick Access Panel</Link>
-              <Link to={'/core-components/related-links-panel'}>21. Related links Panel</Link>
-              <Link to={'/core-components/radio-button'}>22. Radio button</Link>
-              <Link to={'/core-components/search'}>23. Search bar</Link>
-              <Link to={'/core-components/success-confirmation-panel'}>24. Success Confirmation Panel</Link>
-              <Link to={'/core-components/tabs'}>25. Tabs</Link>
-              <Link to={'/core-components/table'}>26. Tables</Link>
-              <Link to={'/core-components/video-for-patient-support-centre'}>27. Video for patient support centre</Link>
-              <Link to={'/core-components/wizard'}>28. Wizard</Link>
+              <Link to={'/core-components/Metrics'}>18. Metrics</Link>
+              <Link to={'/core-components/page-headers'}>19. Page header</Link>
+              <Link to={'/core-components/pills'}>20. Pills</Link>
+              <Link to={'/core-components/quick-access-panel'}>21. Quick Access Panel</Link>
+              <Link to={'/core-components/related-links-panel'}>22. Related links Panel</Link>
+              <Link to={'/core-components/radio-button'}>23. Radio button</Link>
+              <Link to={'/core-components/search'}>24. Search bar</Link>
+              <Link to={'/core-components/success-confirmation-panel'}>25. Success Confirmation Panel</Link>
+              <Link to={'/core-components/tabs'}>26. Tabs</Link>
+              <Link to={'/core-components/table'}>27. Tables</Link>
+              <Link to={'/core-components/video-for-patient-support-centre'}>28. Video for patient support centre</Link>
+              <Link to={'/core-components/wizard'}>29. Wizard</Link>
             </div>
           </div>
         </div>

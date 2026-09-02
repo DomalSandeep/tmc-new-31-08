@@ -16,7 +16,7 @@ const Guidelines = () => {
                   <img className='back-arrow' src={backArrow} alt="Back" />
                 </Link>
               </div>
-              <h1>TATA Memorial Centre & Hospitals</h1>
+              <h1>National Cancer Grid Hospitals & Institutions</h1>
               <h2>Web Design Standards</h2>
               <div className="title">
                 GUIDELINES

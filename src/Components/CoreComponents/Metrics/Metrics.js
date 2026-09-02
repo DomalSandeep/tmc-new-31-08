@@ -6,7 +6,7 @@ const Metrics = () => {
         <div className='InformationPanelContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>18. </span>Metrics and Trust Indicators</h1>
+                    <h1><span>14. </span>Metrics and Trust Indicators</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

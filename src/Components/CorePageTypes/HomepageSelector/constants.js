@@ -35,7 +35,7 @@ export const HELP = {
     'Over 700 beds, 75 or more consultants, 20 or more departments, or a national institute or a network across several states.',
   ],
   photo: [
-    'Around 10–30 high-quality images, including 2–5 strong landscape images suitable for banners. Ideally 1920 × 1080 px or higher.',
+    'Around 5–10 usable images, with few or no images suitable for large banners. Images are generally 1280 × 720 px or higher.',
     'Around 10–30 high-quality images, including 2–5 strong landscape images suitable for banners. Ideally 1920 × 1080 px or higher.',
     '30+ high-quality images and/or videos, including multiple professionally shot landscape images suitable for full-width banners.',
   ],

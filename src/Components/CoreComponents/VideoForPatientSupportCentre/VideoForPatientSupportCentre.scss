@@ -1,4 +1,28 @@
-.VideoForPatientSupportCentreContent{
+.VideoForPatientSupportCentreContent {
+  .variant-conatiner {
+    border-bottom: 2px solid #c4c4c4;
 
-    
+    .variant-tabs {
+      display: flex;
+      max-width: 448px;
+      margin: 0 auto;
+
+      .tab-btn {
+
+        &.active {
+          color: #0065b2;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: #0065b2;
+          }
+        }
+      }
+    }
+  }
 }

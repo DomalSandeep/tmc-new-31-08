@@ -85,6 +85,10 @@ export default function HomepageSelector({
                   <div>
                     <h2>Your Recommended Homepage</h2>
                   </div>
+                  <div className='ncc-btn-wrap'>
+                     <button className="ncc-btn ncc-btn-ghost" onClick={goToQuestions}>
+                    Change Your Answers
+                  </button>
                   <a
                     className={`ncc-btn ncc-btn-primary${downloadDisabled ? ' disabled' : ''}`}
                     href={downloadDisabled ? '#' : pdfPath}
@@ -93,6 +97,7 @@ export default function HomepageSelector({
                   >
                     Download PDF
                   </a>
+                  </div>
                 </div>
 
                 <PaletteGrid options={paletteOptions} selected={palette} onSelect={selectPalette} />

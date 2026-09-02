@@ -1,8 +1,3 @@
-/* HomepageSelector.css
-   Scoped under .ncc-homepage-selector — no bare element selectors, no :root
-   writes — so this can be imported into a project that already has its own
-   global styles/tokens without conflicts. */
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -372,6 +367,11 @@ body {
   text-decoration: none;
   transition: transform .12s ease, box-shadow .12s ease, background .15s ease, border-color .15s ease, opacity .15s;
   cursor: pointer;
+}
+
+.ncc-btn-wrap{
+  display: flex;
+  gap: 8px; 
 }
 
 .ncc-btn:active {

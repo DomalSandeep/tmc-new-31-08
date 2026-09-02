@@ -22,7 +22,7 @@ const PreloginHomepage = () => {
 
     const homepageVariants = {
         small: {
-            description: "The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on how much content you'd like to showcase: Small, Medium or Large.",
+            description: "The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on your institution size: Small, Medium or Large.",
             usage: [
                 'Designed for small-scale institutions such as clinics, specialty centres, and community hospitals',
                 'Provide a focused, concise landing experience without overwhelming visitors',
@@ -34,7 +34,7 @@ const PreloginHomepage = () => {
         },
 
         medium: {
-            description: 'The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on how much content you\'d like to showcase: Concise, Standard, or Comprehensive.',
+            description: "The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on your institution size: Small, Medium or Large.",
             usage: [
                 'Designed for medium-scale institutions such as multi-specialty hospitals, regional medical centres, and teaching hospitals',
                 'Showcase a broader range of departments, specialties, and patient services',
@@ -46,7 +46,7 @@ const PreloginHomepage = () => {
         },
 
         large: {
-            description: "The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on how much content you'd like to showcase: Concise, Standard, or Comprehensive.",
+            description: "The Pre-login Homepage acts as the primary public-facing entry point to the platform. It introduces users to the institution, highlights key services and journeys, and provides immediate access to high-priority. You can choose between three homepage lengths based on your institution size: Small, Medium or Large.",
             usage: [
                 'Designed for large-scale institutions such as national referral centres, cancer networks, and multi-campus hospital systems',
                 'Accommodate extensive service catalogues, research portfolios, and patient support programmes',

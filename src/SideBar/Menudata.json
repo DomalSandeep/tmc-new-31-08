@@ -124,7 +124,7 @@
           "link": "buttons"
         },
         {
-          "title": "4. Bento Grid",
+          "title": "4. Image & Bento Grid",
           "link": "bento-grid"
         },
         {
@@ -164,24 +164,24 @@
           "link": "hero-banner"
         },
         {
-          "title": "14. Icons",
+          "title": "14. Metrics and Trust Indicators",
+          "link": "metrics"
+        },
+        {
+          "title": "15. Icons",
           "link": "icons"
         },
         {
-          "title": "15. Input Fields",
+          "title": "16. Input Fields",
           "link": "text-input"
         },
         {
-          "title": "16. Information Panel",
+          "title": "17. Information Panel",
           "link": "information-panel"
         },
         {
-          "title": "17. Links",
+          "title": "18. Links",
           "link": "links"
-        },
-        {
-          "title": "18. Metrics",
-          "link": "metrics"
         },
         {
           "title": "19. Page header",

@@ -8,7 +8,7 @@ const Cover = () => (
     <div className='maincover-section'>
       <div className='cover-title'>
         <div className="cover-content">
-          <h1>TATA Memorial Centre & Hospitals </h1>
+          <h1>National Cancer Grid Hospitals & Institutions </h1>
           <h2>Web Design Standards</h2>
         </div>
         <img src={require('../../Assets/Images/tmc-bg.webp')} alt="cover" />

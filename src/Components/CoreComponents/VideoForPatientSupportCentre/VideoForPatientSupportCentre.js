@@ -8,7 +8,7 @@ const VideoForPatientSupportCentre = () => {
         <div className='VideoForPatientSupportCentreContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>27.</span> Patient Support Centre</h1>
+                    <h1><span>28.</span> Patient Support Centre</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

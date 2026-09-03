@@ -1,0 +1,62 @@
+.BentoGridContent {
+  .pagecont {
+    // Card items spacing
+    .card-item {
+      &:not(:first-child) {
+        padding-top: 28px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    // Tabs Styling - Add this
+    .tabs-container {
+      .tabs-header {
+        .tab-btn {
+          border-radius: 50px !important;
+          border: 1px solid #0065b2 !important;
+          background: transparent !important;
+
+          &.active {
+            background-color: #0065b2;
+            font-weight: 600;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    // Bento layout for Anatomy section
+    .bento-layout {
+      gap: 80px;
+      padding-bottom: 12px;
+      align-items: center;
+
+      &:not(:last-child) {
+        padding-bottom: 40px;
+      }
+      .bento-container {
+        margin-bottom: 40px;
+        ul.bullets li {
+          list-style: none;
+          margin-left: 0;
+          line-height: 150%;
+        }
+      }
+      .bento-img-content {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+
+        .bento-title {
+          max-width: 215px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}

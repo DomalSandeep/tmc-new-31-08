@@ -42,6 +42,34 @@
   }
 }
 
+.bento-tabs {
+  .tabs-header {
+    display: flex;
+    gap: 12px;
+
+    .tab-btn {
+      border-radius: 50px;
+      border: 1px solid rgba(199, 199, 199, 1);
+      padding-bottom: 0;
+      font-weight: 500;
+      font-size: 14px;
+      // padding: 10px 20px;
+      line-height: none;
+
+      &.active {
+        background-color: #0065b2;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #0065b2;
+
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+}
+
 .color-box {
   display: flex;
   width: 64px;

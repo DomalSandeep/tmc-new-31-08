@@ -46,6 +46,8 @@
   .tabs-header {
     display: flex;
     gap: 12px;
+    flex-wrap: nowrap;           // ✅ Prevent wrapping
+    overflow-x: auto;  
 
     .tab-btn {
       border-radius: 50px;
@@ -53,8 +55,10 @@
       padding-bottom: 0;
       font-weight: 500;
       font-size: 14px;
-      // padding: 10px 20px;
-      line-height: none;
+      line-height: inherit;
+  padding: 10px 20px;
+   white-space: nowrap;      
+      flex-shrink: 0;  
 
       &.active {
         background-color: #0065b2;

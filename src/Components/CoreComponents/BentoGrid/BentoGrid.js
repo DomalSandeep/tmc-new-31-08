@@ -10,6 +10,7 @@ const BentoGrid = () => {
         {
             id: 0,
             label: '3 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -19,6 +20,13 @@ const BentoGrid = () => {
                 'C. Content Details - Desktop - Body default',
                 'D. Play Button - 82 x 82px, added for videos.'
             ],
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
+
             desktopImage: require('../../../Assets/Images/bento-anatomy-desktop.webp'),
             desktopDescription: '',
 
@@ -58,6 +66,7 @@ const BentoGrid = () => {
         {
             id: 1,
             label: '4 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -69,6 +78,13 @@ const BentoGrid = () => {
             ],
             desktopImage: require('../../../Assets/Images/bento-4c-anatomy-desktop.webp'),
             desktopDescription: '',
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
+
 
             // Mobile Data
             mobileTitle: '',
@@ -108,6 +124,7 @@ const BentoGrid = () => {
         {
             id: 2,
             label: '5 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -119,6 +136,13 @@ const BentoGrid = () => {
             ],
             desktopImage: require('../../../Assets/Images/bento-5c-anatomy-desktop.webp'),
             desktopDescription: 'Three-Column Layout - A responsive three-column structure used to organise content cards with varying heights and proportions.',
+
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
 
             // Mobile Data
             mobileTitle: '',
@@ -159,6 +183,7 @@ const BentoGrid = () => {
         {
             id: 3,
             label: '6 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -170,6 +195,12 @@ const BentoGrid = () => {
             ],
             desktopImage: require('../../../Assets/Images/bento-6c-anatomy-desktop.webp'),
             desktopDescription: 'Three-Column Layout - A responsive three-column structure used to organise content cards with varying heights and proportions.',
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
 
             // Mobile Data
             mobileTitle: '',
@@ -210,6 +241,7 @@ const BentoGrid = () => {
         {
             id: 4,
             label: '7 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -221,6 +253,12 @@ const BentoGrid = () => {
             ],
             desktopImage: require('../../../Assets/Images/bento-7c-anatomy-desktop.webp'),
             desktopDescription: 'Four-Column Layout - A responsive four-column structure used to organise content cards with varying heights and proportions.',
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
 
             // Mobile Data
             mobileTitle: '',
@@ -261,6 +299,7 @@ const BentoGrid = () => {
         {
             id: 5,
             label: '8 Cards',
+            showSpacing: true,
 
             // Desktop Data
             desktopTitle: '',
@@ -272,6 +311,12 @@ const BentoGrid = () => {
             ],
             desktopImage: require('../../../Assets/Images/bento-grid-image-4.webp'),
             desktopDescription: 'Four-Column Layout - A responsive four-column structure used to organise content cards with varying heights and proportions.',
+
+            // Desktop Data1
+            desktopTitle1: '',
+            desktopBullets1: [],
+            desktopImage1: (''),
+            desktopDescription1: '',
 
             // Mobile Data
             mobileTitle: '',
@@ -292,6 +337,193 @@ const BentoGrid = () => {
             // CONTENT
             content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
                 Use strong imagery and short supporting copy to maintain scalability while allowing the visuals to lead the experience..
+                Featured cards may contain slightly longer content where additional context is required.`,
+            // GUIDELINES
+            dos: [
+                'Use high-quality, emotionally engaging imagery',
+                'Maintain clear visual hierarchy across card sizes',
+                'Use concise headlines and supporting text',
+                'Prioritise readability over excessive layout complexity',
+                'Ensure featured stories receive visual emphasis intentionally'
+            ],
+            donts: [
+                'Do not overcrowd the layout with excessive text',
+                'Avoid inconsistent image treatments across cards',
+                'Do not use too many equally large cards within the same layout',
+                'Avoid highly irregular spacing or alignment breaks',
+                'Do not use Bento layouts for highly structured/tabular content'
+            ]
+        },
+        {
+            id: 6,
+            label: '10 Cards',
+            showSpacing: false,
+
+            // Desktop Data
+            desktopTitle: 'Collapsed section: 10 Cards (5-card Bento Grid)',
+            desktopBullets: [],
+            desktopImage: require('../../../Assets/Images/bento-10c-anatomy-desktop-1.webp'),
+            desktopDescription: '',
+
+            // Desktop Data1
+            desktopTitle1: 'Expanded section: 10 Cards',
+            desktopBullets1: [],
+            desktopImage1: require('../../../Assets/Images/bento-10c-anatomy-desktop-2.webp'),
+            desktopDescription1: "If there are more than 8 videos and the 5-card bento layout is in use, a 'View More' option expands the section to display up to 10 videos.",
+
+            // Mobile Data
+            mobileTitle: '',
+            mobileBullets: [],
+            mobileImage: require('../../../Assets/Images/bento-10c-anatomy-mobile.webp'),
+            mobileDescription: "If there are more than 8 videos and the 5-card bento layout is in use, a 'View More' option expands the section to display up to 10 videos.",
+
+            // SPACING IN PIXELS
+            desktopSpacingImage: (''),
+            mobileSpacingImage: (''),
+
+            // CONTENT
+            content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
+                Use strong imagery and short supporting copy to maintain scalability while allowing the visuals to lead the experience.
+                Featured cards may contain slightly longer content where additional context is required.`,
+            // GUIDELINES
+            dos: [
+                'Use high-quality, emotionally engaging imagery',
+                'Maintain clear visual hierarchy across card sizes',
+                'Use concise headlines and supporting text',
+                'Prioritise readability over excessive layout complexity',
+                'Ensure featured stories receive visual emphasis intentionally'
+            ],
+            donts: [
+                'Do not overcrowd the layout with excessive text',
+                'Avoid inconsistent image treatments across cards',
+                'Do not use too many equally large cards within the same layout',
+                'Avoid highly irregular spacing or alignment breaks',
+                'Do not use Bento layouts for highly structured/tabular content'
+            ]
+        },
+        {
+            id: 7,
+            label: '12 Cards',
+            showSpacing: false,
+
+            // Desktop Data
+            desktopTitle: 'Collapsed section: 12 Cards (6-card Bento Grid)',
+            desktopBullets: [],
+            desktopImage: require('../../../Assets/Images/bento-12c-anatomy-desktop-1.webp'),
+            desktopDescription: '',
+
+            // Desktop Data1
+            desktopTitle1: 'Expanded section: 12 Cards',
+            desktopBullets1: [],
+            desktopImage1: require('../../../Assets/Images/bento-12c-anatomy-desktop-2.webp'),
+            desktopDescription1: "If there are more than 8 videos and the 6-card bento layout is in use, a 'View More' option expands the section to display up to 12 videos.",
+
+            // Mobile Data
+            mobileTitle: '',
+            mobileBullets: [],
+            mobileImage: require('../../../Assets/Images/bento-10c-anatomy-mobile.webp'),
+            mobileDescription: "If there are more than 8 videos and the 6-card bento layout is in use, a 'View More' option expands the section to display up to 12 videos.",
+
+            // SPACING IN PIXELS
+            desktopSpacingImage: (''),
+            mobileSpacingImage: (''),
+
+            // CONTENT
+            content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
+                Use strong imagery and short supporting copy to maintain scalability while allowing the visuals to lead the experience.
+                Featured cards may contain slightly longer content where additional context is required.`,
+            // GUIDELINES
+            dos: [
+                'Use high-quality, emotionally engaging imagery',
+                'Maintain clear visual hierarchy across card sizes',
+                'Use concise headlines and supporting text',
+                'Prioritise readability over excessive layout complexity',
+                'Ensure featured stories receive visual emphasis intentionally'
+            ],
+            donts: [
+                'Do not overcrowd the layout with excessive text',
+                'Avoid inconsistent image treatments across cards',
+                'Do not use too many equally large cards within the same layout',
+                'Avoid highly irregular spacing or alignment breaks',
+                'Do not use Bento layouts for highly structured/tabular content'
+            ]
+        },
+        {
+            id: 8,
+            label: '14 Cards',
+            showSpacing: false,
+
+            // Desktop Data
+            desktopTitle: 'Collapsed section: 14 Cards (7-card Bento Grid)',
+            desktopBullets: [],
+            desktopImage: require('../../../Assets/Images/bento-14c-anatomy-desktop-1.webp'),
+            desktopDescription: '',
+
+            // Desktop Data1
+            desktopTitle1: 'Expanded section: 14 Cards',
+            desktopBullets1: [],
+            desktopImage1: require('../../../Assets/Images/bento-14c-anatomy-desktop-2.webp'),
+            desktopDescription1: "If there are more than 8 videos and the 7-card bento layout is in use, a 'View More' option expands the section to display up to 14 videos.",
+
+            // Mobile Data
+            mobileTitle: '',
+            mobileBullets: [],
+            mobileImage: require('../../../Assets/Images/bento-14c-anatomy-mobile.webp'),
+            mobileDescription: "Horizontal swipe four column layout carousel - A responsive four-column structure used to organise content cards with varying heights and proportions.",
+
+            // SPACING IN PIXELS
+            desktopSpacingImage: (''),
+            mobileSpacingImage: (''),
+
+            // CONTENT
+            content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
+                Use strong imagery and short supporting copy to maintain scalability while allowing the visuals to lead the experience.
+                Featured cards may contain slightly longer content where additional context is required.`,
+            // GUIDELINES
+            dos: [
+                'Use high-quality, emotionally engaging imagery',
+                'Maintain clear visual hierarchy across card sizes',
+                'Use concise headlines and supporting text',
+                'Prioritise readability over excessive layout complexity',
+                'Ensure featured stories receive visual emphasis intentionally'
+            ],
+            donts: [
+                'Do not overcrowd the layout with excessive text',
+                'Avoid inconsistent image treatments across cards',
+                'Do not use too many equally large cards within the same layout',
+                'Avoid highly irregular spacing or alignment breaks',
+                'Do not use Bento layouts for highly structured/tabular content'
+            ]
+        },
+        {
+            id: 9,
+            label: '16 Cards',
+            showSpacing: false,
+            // Desktop Data
+            desktopTitle: 'Collapsed section: 16 Cards (8-card Bento Grid)',
+            desktopBullets: [],
+            desktopImage: require('../../../Assets/Images/bento-16c-anatomy-desktop-1.webp'),
+            desktopDescription: '',
+
+            // Desktop Data1
+            desktopTitle1: 'Expanded section: 16 Cards',
+            desktopBullets1: [],
+            desktopImage1: require('../../../Assets/Images/bento-16c-anatomy-desktop-2.webp'),
+            desktopDescription1: "If there are more than 8 videos and the 8-card bento layout is in use, a 'View More' option expands the section to display up to 16 videos.",
+
+            // Mobile Data
+            mobileTitle: '',
+            mobileBullets: [],
+            mobileImage: require('../../../Assets/Images/bento-16c-anatomy-mobile.webp'),
+            mobileDescription: "Horizontal swipe four column layout carousel - A responsive four-column structure used to organise content cards with varying heights and proportions.",
+
+            // SPACING IN PIXELS
+            desktopSpacingImage: (''),
+            mobileSpacingImage: (''),
+
+            // CONTENT
+            content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
+                Use strong imagery and short supporting copy to maintain scalability while allowing the visuals to lead the experience.
                 Featured cards may contain slightly longer content where additional context is required.`,
             // GUIDELINES
             dos: [
@@ -432,7 +664,7 @@ const BentoGrid = () => {
 
                     {/* ANATOMY Section with Tabs */}
                     <section>
-                        <div className="titlebdr">ANATOMY</div>
+                        <div className="titlebdr">ANATOMY OF A {tabData[activeTab].label.toUpperCase()} BENTO GRID</div>
                         <div className='imageWrapBg2'>
                             <div className='pagecont dashed-border'>
                                 <div>
@@ -456,6 +688,28 @@ const BentoGrid = () => {
                                                 {tabData[activeTab].desktopDescription}  {/* Changed - dynamic */}
                                             </div>
                                         </div>
+
+                                    </div>
+                                    <div className="bento-layout">
+                                        <div className="bento-container">
+                                            <ul className="bullets">
+                                                <li><b>{tabData[activeTab].desktopTitle1}</b></li>  {/* Changed - dynamic */}
+                                                {tabData[activeTab].desktopBullets1.map((bullet, index) => (
+                                                    <li key={index}>{bullet}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                        <div className="bento-img-content">
+                                            <img
+                                                className='full-width'
+                                                src={tabData[activeTab].desktopImage1}
+                                                alt=""
+                                            />
+                                            <div className="bento-title">
+                                                {tabData[activeTab].desktopDescription1}  {/* Changed - dynamic */}
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -488,31 +742,34 @@ const BentoGrid = () => {
                             </div>
                         </div>
                     </section>
-                    <section>
-                        <div className="titlebdr">SPACING IN PIXELS</div>
-                        <div className='imageWrapBg2'>
-                            <div className='pagecont dashed-border'>
-                                <div className='container-800'>
-                                    <p className='title'>Desktop</p>
-                                    <img
-                                        className='mrgbtm full-width'
-                                        src={tabData[activeTab].desktopSpacingImage}
-                                        alt="Desktop Spacing"
-                                    />
+                    {/* SPACING IN PIXELS - Only show if showSpacing is true */}
+                    {tabData[activeTab].showSpacing && (
+                        <section>
+                            <div className="titlebdr">SPACING IN PIXELS</div>
+                            <div className='imageWrapBg2'>
+                                <div className='pagecont dashed-border'>
+                                    <div className='container-800'>
+                                        <p className='title'>Desktop</p>
+                                        <img
+                                            className='mrgbtm full-width'
+                                            src={tabData[activeTab].desktopSpacingImage}
+                                            alt="Desktop Spacing"
+                                        />
+                                    </div>
+                                </div>
+                                <div className='pagecont pt-40 container-800'>
+                                    <div>
+                                        <p className='title'>Mobile</p>
+                                        <img
+                                            className='mrgbtm full-width'
+                                            src={tabData[activeTab].mobileSpacingImage}
+                                            alt="Mobile Spacing"
+                                        />
+                                    </div>
                                 </div>
                             </div>
-                            <div className='pagecont pt-40 container-800'>
-                                <div>
-                                    <p className='title'>Mobile</p>
-                                    <img
-                                        className='mrgbtm '
-                                        src={tabData[activeTab].mobileSpacingImage}
-                                        alt="Mobile Spacing"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
+                    )}
 
                     <section>
                         <div className="titlebdr mrgbtm">CONTENT</div>

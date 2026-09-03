@@ -6,7 +6,7 @@ const RadioButtons = () => {
         <div className='RadioButtonsContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>22.</span> Radio Buttons</h1>
+                    <h1><span>23.</span> Radio Buttons</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

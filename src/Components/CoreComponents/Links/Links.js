@@ -8,7 +8,7 @@ const Links = () => {
         <div className='LinksContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>17.</span> Links</h1>
+                    <h1><span>18.</span> Links</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

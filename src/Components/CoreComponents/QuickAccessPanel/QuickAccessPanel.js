@@ -6,7 +6,7 @@ const QuickAccessPanel = () => {
         <div className='QuickAccessPanelContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>20.</span>  Quick Access Panel</h1>
+                    <h1><span>21.</span>  Quick Access Panel</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

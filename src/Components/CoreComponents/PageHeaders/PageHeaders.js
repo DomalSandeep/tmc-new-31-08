@@ -6,7 +6,7 @@ const PageHeaders = () => {
         <div className='PageHeadersContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>18. </span> Page Headers</h1>
+                    <h1><span>19. </span> Page Headers</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

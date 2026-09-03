@@ -6,7 +6,7 @@ const TextInput = () => {
         <div className='TextInputContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>15.</span> Input Fields</h1>
+                    <h1><span>17.</span> Input Fields</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

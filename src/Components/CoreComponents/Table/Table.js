@@ -6,7 +6,7 @@ const Table = () => {
         <div className='TableContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>26.</span>  Tables</h1>
+                    <h1><span>27.</span>  Tables</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

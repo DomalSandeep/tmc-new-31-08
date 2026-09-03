@@ -6,7 +6,7 @@ const SuccessConfirmationPanel = () => {
         <div className='SuccessConfirmationPanelContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>24.</span>  Success Confirmation Panel</h1>
+                    <h1><span>25.</span>  Success Confirmation Panel</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

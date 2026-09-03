@@ -315,7 +315,7 @@ const BentoGrid = () => {
         <div className='BentoGridContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>4. </span> Bento Grid</h1>
+                    <h1><span>4. </span>Image & Bento Grid</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

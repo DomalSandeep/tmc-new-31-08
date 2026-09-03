@@ -109,9 +109,10 @@ const VideoForPatientSupportCentre = () => {
                                     <div className='pagecont dashed-border'>
                                         <p className='title'>Desktop</p>
                                         <div className='container-800'>
+                                            <b>With Search and Filter Functionality</b>
+                                            <br/><br/>
                                             <div className="horizBullets2 no-margin" style={{ gap: '80px', justifyContent: 'flex-start' }}>
                                                 <ul className="bullets nospace">
-                                                    <li><b>Default State</b></li>
                                                     <li>A. Desktop search bar</li>
                                                     <li>B. Desktop icon button</li>
                                                 </ul>

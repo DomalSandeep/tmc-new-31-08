@@ -5,7 +5,7 @@ const Wizard = () => {
         <div className='WizardContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>28.</span>  Wizard</h1>
+                    <h1><span>29.</span>  Wizard</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

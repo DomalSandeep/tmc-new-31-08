@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='page-content padtp0'>
                 <div className="container">
                     <section className='padtp2'>
-                        <p>                        A website’s footer is an area located at the bottom of every page on a website, below the main body content. Users intentionally scroll to the footer to find information they expect to appear there, such as contact information, details about the company, social media posts or links, or even to discover new or related content on the site. Some users even use the footer for navigation: when they have already scrolled to the end of a page, because the footer is in close proximity, they use that instead of scrolling to the top for the global navigation.</p>
+                        <p>A website’s footer is an area located at the bottom of every page on a website, below the main body content. Users intentionally scroll to the footer to find information they expect to appear there, such as contact information, details about the company, social media posts or links, or even to discover new or related content on the site. Some users even use the footer for navigation: when they have already scrolled to the end of a page, because the footer is in close proximity, they use that instead of scrolling to the top for the global navigation.</p>
                     </section>
                     <section>
                         <div className="titlebdr mrgbtm">USAGE</div>
@@ -101,7 +101,7 @@ const Footer = () => {
                                             <ul className="bullets nospace">
                                                 <li>A. Branding</li>
                                                 <li>B. Contact information</li>
-                                                <li>C. Container- #0D4169, 224px by 1920px </li>
+                                                <li>C. Container- 428px by 1920px </li>
                                             </ul>
                                             <ul className="bullets nospace">
                                                 <li>D. Group header text typography style- Desktop body large</li>

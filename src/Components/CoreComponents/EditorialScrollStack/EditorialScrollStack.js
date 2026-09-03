@@ -5,7 +5,7 @@ const EditorialScrollStack = () => {
         <div className='EditorialScrollStackContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>10.</span>Editorial Scroll Stack</h1>
+                    <h1><span>10. </span>Editorial Scroll Stack</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

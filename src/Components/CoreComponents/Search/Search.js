@@ -6,7 +6,7 @@ const Search = () => {
         <div className='SearchContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>23.</span> Search Bar</h1>
+                    <h1><span>24.</span> Search Bar</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

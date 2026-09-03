@@ -5,7 +5,7 @@ const Tabs = () => {
         <div className='TabsContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>25.</span> Tabs</h1>
+                    <h1><span>26.</span> Tabs</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

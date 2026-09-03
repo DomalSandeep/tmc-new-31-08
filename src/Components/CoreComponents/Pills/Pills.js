@@ -6,7 +6,7 @@ const Pills = () => {
         <div className='PillsContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>19.</span> Pills</h1>
+                    <h1><span>20.</span> Pills</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

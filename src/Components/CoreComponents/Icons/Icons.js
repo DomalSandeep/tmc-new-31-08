@@ -6,7 +6,7 @@ const Icons = () => {
         <div className='IconsContent'>
             <div className="headTitleBg">
                 <div className="container">
-                    <h1><span>14.</span> Icons</h1>
+                    <h1><span>15.</span> Icons</h1>
                 </div>
             </div>
             <div className='page-content padtp0'>

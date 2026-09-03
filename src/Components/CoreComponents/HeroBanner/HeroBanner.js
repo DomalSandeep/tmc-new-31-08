@@ -8,15 +8,19 @@ const HeroBanner = () => {
     const tabs = [
         {
             id: 'option-a',
-            label: 'Option A'
+            label: 'Option A',
+            showInteraction: true,
+
         },
         {
             id: 'option-b',
-            label: 'Option B'
+            label: 'Option B',
+            showInteraction: true,
         },
         {
             id: 'option-c',
-            label: 'Option C'
+            label: 'Option C',
+            showInteraction: true,
         }
     ];
 
@@ -151,7 +155,7 @@ const HeroBanner = () => {
                         'D. Hero Overlay - #000000 (23%) opacity 100% - #666666 (75%) opacity 0%, 70% opacity',
                         'E. Image or video - 1696px by 535px'
                     ],
-                    image: require('../../../Assets/Images/hero-banner-image-1.webp')
+                    image: require('../../../Assets/Images/hero-banner-option-c-anatomy-desktop.webp')
                 },
 
                 mobile: {
@@ -164,15 +168,13 @@ const HeroBanner = () => {
                         'E. Hero Overlay - linear gradient, #000000 (0% alpha) to #000000 (70% alpha), right to left'
 
                     ],
-                    image: require('../../../Assets/Images/hero-banner-image-2.webp')
+                    image: require('../../../Assets/Images/hero-banner-option-c-anatomy-mobile.webp')
                 }
             },
 
             spacing: {
-                desktop: require('../../../Assets/Images/hero-banner-image-1.webp'),
-                desktop_2: require('../../../Assets/Images/hero-banner-image-1.webp'),
-                mobile: require('../../../Assets/Images/hero-banner-image-2.webp'),
-                desktop_2: require('../../../Assets/Images/hero-banner-image-1.webp')
+                desktop: require('../../../Assets/Images/hero-banner-option-c-spacing-desktop.webp'),
+                mobile: require('../../../Assets/Images/hero-banner-option-c-spacing-mobile.webp'),
             },
 
             interaction: '',
@@ -401,7 +403,7 @@ const HeroBanner = () => {
                                             <img
                                                 src={currentVariant.anatomy.mobile.image_2}
                                                 alt=""
-                                                
+
                                             />
                                         </div>
 
@@ -455,58 +457,62 @@ const HeroBanner = () => {
                     </section>
 
                     <section>
-    <div className="titlebdr">
-        SPACING IN PIXELS
-    </div>
-
-    <div className='imageWrapBg2'>
-        <div className='pagecont dashed-border'>
-            <div className='container'>
-                <p className='title'>
-                    Desktop
-                </p>
-                <div className="horizBullets2">
-                    <img
-                        className='full-width'
-                        src={currentVariant.spacing.desktop}
-                        alt=""
-                    />
-                </div>
-            </div>
-        </div>
-
-        <div className={`pagecont pt-40 ${activeTab === 'option-b' ? 'container' : 'container-800'}`}>
-            <div>
-                <p className='title'>
-                    Mobile
-                </p>
-                <div className="horizBullets2">
-                    <img
-                        className={activeTab === 'option-b' ? 'full-width' : ''}
-                        src={currentVariant.spacing.mobile}
-                        alt=""
-                    />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-                    <section>
-                        <div className="titlebdr mrgbtm">
-                            INTERACTION {activeTab === 'option-a' ? 'OPTION A' : activeTab === 'option-b' ? 'OPTION B' : 'OPTION C'}
+                        <div className="titlebdr">
+                            SPACING IN PIXELS
                         </div>
 
-                        {Array.isArray(currentVariant.interaction) ? (
-                            <ul className='bullets'>
-                                {currentVariant.interaction.map((item, index) => (
-                                    <li key={index}>{item}</li>
-                                ))}
-                            </ul>
-                        ) : (
-                            <p>{currentVariant.interaction}</p>
-                        )}
+                        <div className='imageWrapBg2'>
+                            <div className='pagecont dashed-border'>
+                                <div className='container'>
+                                    <p className='title'>
+                                        Desktop
+                                    </p>
+                                    <div className="horizBullets2">
+                                        <img
+                                            className='full-width'
+                                            src={currentVariant.spacing.desktop}
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={`pagecont pt-40 ${activeTab === 'option-b' ? 'container' : 'container-800'}`}>
+                                <div>
+                                    <p className='title'>
+                                        Mobile
+                                    </p>
+                                    <div className="horizBullets2">
+                                        <img
+                                            className={activeTab === 'option-b' ? 'full-width' : ''}
+                                            src={currentVariant.spacing.mobile}
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
+
+
+                    {/* INTERACTION Section - Hide for Option C */}
+                    {tabs.find(tab => tab.id === activeTab)?.showInteraction && currentVariant.interaction && (
+                        <section>
+                            <div className="titlebdr mrgbtm">
+                                INTERACTION {activeTab === 'option-a' ? 'OPTION A' : activeTab === 'option-b' ? 'OPTION B' : 'OPTION C'}
+                            </div>
+
+                            {Array.isArray(currentVariant.interaction) ? (
+                                <ul className='bullets'>
+                                    {currentVariant.interaction.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
+                                </ul>
+                            ) : ( 
+                                <p>{currentVariant.interaction}</p>
+                            )}
+                        </section>
+                    )}
 
                     <section>
                         <div className="titlebdr mrgbtm">

@@ -50,6 +50,11 @@
         align-items: center;
         gap: 80px;
 
+        .full-width {
+          max-width: 70%;
+          flex: 2 ; 
+        }
+
         .bento-title {
           max-width: 215px;
           font-weight: 400;

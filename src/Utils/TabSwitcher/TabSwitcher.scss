@@ -46,7 +46,7 @@
   .tabs-header {
     display: flex;
     gap: 12px;
-    flex-wrap: nowrap;           // ✅ Prevent wrapping
+    flex-wrap: nowrap;    
     overflow-x: auto;  
 
     .tab-btn {

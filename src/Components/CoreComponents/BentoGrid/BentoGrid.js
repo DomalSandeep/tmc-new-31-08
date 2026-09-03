@@ -94,12 +94,12 @@ const BentoGrid = () => {
                 'C. Content Details- Mobile body small',
                 'D. Play Button - 50 x 50px, added for videos.'
             ],
-            mobileImage: require('../../../Assets/Images/bento-grid-image-6.webp'),
+            mobileImage: require('../../../Assets/Images/bento-4c-anatomy-mobile.webp'),
             mobileDescription: '',
 
             // SPACING IN PIXELS
-            desktopSpacingImage: require('../../../Assets/Images/bento-grid-image-7.webp'),
-            mobileSpacingImage: require('../../../Assets/Images/bento-grid-image-8.webp'),
+            desktopSpacingImage: require('../../../Assets/Images/bento-4c-spacing-desktop.webp'),
+            mobileSpacingImage: require('../../../Assets/Images/bento-4c-spacing-mobile.webp'),
 
             // CONTENT
             content: `The 4-card bento grid arranges image or video cards in a visually balanced layout with varied sizes.
@@ -216,7 +216,7 @@ const BentoGrid = () => {
 
             // SPACING IN PIXELS
             desktopSpacingImage: require('../../../Assets/Images/bento-6c-spacing-desktop.webp'),
-            mobileSpacingImage: require('../../../Assets/Images/bento-grid-image-8.webp'),
+            mobileSpacingImage: require('../../../Assets/Images/bento-5c-spacing-mobile.webp'),
 
             // CONTENT
             content: `Content within Bento Grids should remain concise, emotionally engaging, and visually balanced.
@@ -375,7 +375,7 @@ const BentoGrid = () => {
             mobileTitle: '',
             mobileBullets: [],
             mobileImage: require('../../../Assets/Images/bento-10c-anatomy-mobile.webp'),
-            mobileDescription: "If there are more than 8 videos and the 5-card bento layout is in use, a 'View More' option expands the section to display up to 10 videos.",
+            mobileDescription: "Horizontal swipe four column layout carousel - A responsive four-column structure used to organise content cards with varying heights and proportions.",
 
             // SPACING IN PIXELS
             desktopSpacingImage: (''),
@@ -421,8 +421,8 @@ const BentoGrid = () => {
             // Mobile Data
             mobileTitle: '',
             mobileBullets: [],
-            mobileImage: require('../../../Assets/Images/bento-10c-anatomy-mobile.webp'),
-            mobileDescription: "If there are more than 8 videos and the 6-card bento layout is in use, a 'View More' option expands the section to display up to 12 videos.",
+            mobileImage: require('../../../Assets/Images/bento-12c-anatomy-mobile.webp'),
+            mobileDescription: "Horizontal swipe four column layout carousel - A responsive four-column structure used to organise content cards with varying heights and proportions.",
 
             // SPACING IN PIXELS
             desktopSpacingImage: (''),
@@ -553,7 +553,7 @@ const BentoGrid = () => {
             <div className='page-content padtp0'>
                 <div className="container">
                     <section className='padtp2'>
-                        Bento Grids are used to present multiple related content items in a visually engaging, editorial-style layout with varied card sizes and compositions.
+                        Image & Bento Grids are used to present multiple related content items in a visually engaging, editorial-style layout with varied card sizes and compositions.
                     </section>
 
                     <section>
@@ -571,16 +571,15 @@ const BentoGrid = () => {
                                 <ul className='bullets nospace'>
                                     <li>Home pages</li>
                                     <li>Donations section landing page</li>
-                                    <li>Grids for Patient Support</li>
+
                                 </ul>
                                 <ul className='bullets nospace'>
-                                    <li>Why choose TMC as an international patient</li>
+                                    <li>Grids for Patient Support</li>
                                     <li>Financial assistance</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
-
                     <section>
                         <div className="titlebdr">VARIANTS</div>
                         <div className='imageWrapBg padbtm'>
@@ -761,7 +760,7 @@ const BentoGrid = () => {
                                     <div>
                                         <p className='title'>Mobile</p>
                                         <img
-                                            className='mrgbtm full-width'
+                                            className='mrgbtm '
                                             src={tabData[activeTab].mobileSpacingImage}
                                             alt="Mobile Spacing"
                                         />

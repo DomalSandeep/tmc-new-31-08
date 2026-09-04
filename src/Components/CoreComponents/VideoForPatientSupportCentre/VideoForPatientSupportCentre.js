@@ -227,9 +227,13 @@ const VideoForPatientSupportCentre = () => {
                                     </div>
                                     <div className='pagecont pt-40'>
                                         <p className='title'>Mobile</p>
-                                        <div style={{ fontSize: '14px' }}>On mobile, the experience transitions into a swipeable carousel layout to improve browsing, touch interaction, and content discovery within smaller viewports. Video cards are presented in stacked vertical formats with horizontal scrolling support, allowing users to quickly explore and navigate through video-based content.
-                                            <br />
-                                            Suggested search prompts adapt into horizontally scrollable pills, while search and language actions remain easily accessible within the viewport.</div>
+                                        <div className="horizBullets2 no-margin">
+                                            <ul className="bullets nospace">
+                                                <li><b>Selected Video State</b></li>
+                                                <li>A. Overlay - #000000 66%</li>
+                                                <li>B. Video Container - 336 by 212 px, centre aligned to the first fold of the screen</li>
+                                            </ul>
+                                        </div>
                                         <br />
                                         <img style={{ width: '25%' }} src={require('../../../Assets/Images/patient-support-video-anatomy-mobile.webp')} alt="" />
                                     </div>
@@ -273,7 +277,7 @@ const VideoForPatientSupportCentre = () => {
                                         </div>
                                         <br />
                                     </div>
-                                    <div className='pagecont'>
+                                    <div className='pagecont pt-40'>
                                         <p className='title'>Mobile</p>
                                         <img style={{ width: '25%' }} src={require('../../../Assets/Images/patient-support-video-spacing-mobile.webp')} alt="" />
                                     </div>

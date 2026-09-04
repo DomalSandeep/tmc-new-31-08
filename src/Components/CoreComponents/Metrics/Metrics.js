@@ -261,9 +261,9 @@ const Metrics = () => {
                     </section>
 
                     <section>
-                        <div class="titlebdr">spacing in pixels</div>
-
-                        <div class="pagecont">
+                        <div class="titlebdr upcase">Spacing in pixels</div>
+                         <div className="imageWrapBg2">
+                            <div class="pagecont">
                             <p class="title">Desktop</p>
                             <div class="dashed-border">
                                 <p><strong> 1. When used with a single level Quick Action Panel</strong></p>
@@ -278,7 +278,7 @@ const Metrics = () => {
                                 <img  src={require('../../../Assets/Images/metrics-space-desktop-3.webp')} alt="" />
                             </div>
                         </div>
-
+                         
                         <div class="pagecont  pt-40">
                             <p class="title">Mobile</p>
                             <div class="dashed-border">
@@ -294,7 +294,7 @@ const Metrics = () => {
                                 <img  src={require('../../../Assets/Images/metrics-space-mobile-3.webp')} alt="" />
                             </div>
                         </div>
-
+                </div>
 
                     </section>
 

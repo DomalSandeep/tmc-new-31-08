@@ -698,16 +698,20 @@ const BentoGrid = () => {
                                                 ))}
                                             </ul>
                                         </div>
-                                        <div className="bento-img-content">
-                                            <img
-                                                className='full-width'
-                                                src={tabData[activeTab].desktopImage1}
-                                                alt=""
-                                            />
-                                            <div className="bento-title">
-                                                {tabData[activeTab].desktopDescription1}  {/* Changed - dynamic */}
+                                        {tabData[activeTab].desktopImage1 && (
+                                            <div className="bento-img-content">
+                                                <img
+                                                    className="full-width"
+                                                    src={tabData[activeTab].desktopImage1}
+                                                    alt=""
+                                                />
+                                                {tabData[activeTab].desktopDescription1 && (
+                                                    <div className="bento-title">
+                                                        {tabData[activeTab].desktopDescription1}
+                                                    </div>
+                                                )}
                                             </div>
-                                        </div>
+                                        )}
 
                                     </div>
                                 </div>
@@ -726,16 +730,20 @@ const BentoGrid = () => {
                                                 ))}
                                             </ul>
                                         </div>
-                                        <div className="bento-img-content">
-                                            <img
-                                                className=''
-                                                src={tabData[activeTab].mobileImage}
-                                                alt=""
-                                            />
-                                            <div className="bento-title">
-                                                {tabData[activeTab].mobileDescription}  {/* Changed - dynamic */}
+                                        {tabData[activeTab].mobileImage && (
+                                            <div className="bento-img-content">
+                                                <img
+                                                    className=""
+                                                    src={tabData[activeTab].mobileImage}
+                                                    alt=""
+                                                />
+                                                {tabData[activeTab].mobileDescription && (
+                                                    <div className="bento-title">
+                                                        {tabData[activeTab].mobileDescription}
+                                                    </div>
+                                                )}
                                             </div>
-                                        </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -749,21 +757,25 @@ const BentoGrid = () => {
                                 <div className='pagecont dashed-border'>
                                     <div className='container-800'>
                                         <p className='title'>Desktop</p>
-                                        <img
-                                            className='mrgbtm full-width'
-                                            src={tabData[activeTab].desktopSpacingImage}
-                                            alt="Desktop Spacing"
-                                        />
+                                        {tabData[activeTab].desktopSpacingImage && (
+                                            <img
+                                                className="mrgbtm full-width"
+                                                src={tabData[activeTab].desktopSpacingImage}
+                                                alt="Desktop Spacing"
+                                            />
+                                        )}
                                     </div>
                                 </div>
                                 <div className='pagecont pt-40 container-800'>
                                     <div>
                                         <p className='title'>Mobile</p>
-                                        <img
-                                            className='mrgbtm '
-                                            src={tabData[activeTab].mobileSpacingImage}
-                                            alt="Mobile Spacing"
-                                        />
+                                        {tabData[activeTab].mobileSpacingImage && (
+                                            <img
+                                                className="mrgbtm"
+                                                src={tabData[activeTab].mobileSpacingImage}
+                                                alt="Mobile Spacing"
+                                            />
+                                        )}
                                     </div>
                                 </div>
                             </div>

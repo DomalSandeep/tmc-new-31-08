@@ -152,7 +152,7 @@ const App = () => {
             <Route path="/core-components/success-confirmation-panel" element={<SuccessConfirmationPanel />} />
             <Route path="/core-components/table" element={<Table />} />
             <Route path="/core-components/pills" element={<Pills />} />
-            <Route path="/core-components/video-for-patient-support-centre" element={<VideoForPatientSupportCentre />} />
+            <Route path="/core-components/patient-support-centre" element={<VideoForPatientSupportCentre />} />
             <Route path="/core-components/radio-button" element={<RadioButtons />} />
             <Route path="/core-components/search" element={<Search />} />
             <Route path="/core-components/tabs" element={<Tabs />} />

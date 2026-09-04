@@ -175,13 +175,14 @@ const Metrics = () => {
                                         <p><b>4. Showcase NCG affiliation</b></p>
                                         <div className="horizBullets2">
                                             <ul className="bullets">
-                                                <li>A. Affiliation logo - 140 x 140 px frame</li>
-                                                <li>B. Affiliation label – Typography Style: Body Large</li>
-                                                <li>C. Divider - #FFFFFF, 44%</li>
+                                                <li>A. NCG Logo - 345 x 163 px</li>
+                                                <li>B. Divider - #FFFFFF, 44%</li>
+                                                <li>C. Title – Typography Style: Heading 2</li>
+                                                <li>D. Body text – Typography Style: Body Large</li>
                                             </ul>
                                             <ul className="bullets">
-                                                <li>D. Background - Gradient #0F2D52 - #C6A85E</li>
                                                 <li>E. Accent pattern</li>
+                                                <li>F. Background - Gradient #0F2D52 - #C6A85E</li>
                                             </ul>
                                         </div>
                                         <img className='full-width' src={require('../../../Assets/Images/metrics-anatomy-desktop-4.webp')} alt="" />
@@ -287,11 +288,11 @@ const Metrics = () => {
                             </div>
                             <div class="dashed-border pt-40">
                                 <p><strong> 2. When used with Quick Access Panel that has 5 CTAs:</strong></p>
-                                <img  src={require('../../../Assets/Images/metrics-space-mobile-2.webp')} alt="" />
+                                <img  src={require('../../../Assets/Images/metrics-space-mobile-3.webp')} alt="" />
                             </div>
                             <div class="pt-40">
                                 <p><strong> 3.When used with Quick Access Panel that has 6 CTAs:</strong></p>
-                                <img  src={require('../../../Assets/Images/metrics-space-mobile-3.webp')} alt="" />
+                                <img  src={require('../../../Assets/Images/metrics-space-mobile-2.webp')} alt="" />
                             </div>
                         </div>
                 </div>

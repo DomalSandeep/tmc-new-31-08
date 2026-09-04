@@ -689,27 +689,25 @@ const BentoGrid = () => {
                                         </div>
 
                                     </div>
-                                    <div className="bento-layout">
-                                        <div className="bento-container">
-                                            <ul className="bullets">
-                                                <li><b>{tabData[activeTab].desktopTitle1}</b></li>  {/* Changed - dynamic */}
-                                                {tabData[activeTab].desktopBullets1.map((bullet, index) => (
-                                                    <li key={index}>{bullet}</li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                        <div className="bento-img-content">
-                                            <img
-                                                className='full-width'
-                                                src={tabData[activeTab].desktopImage1}
-                                                alt=""
-                                            />
-                                            <div className="bento-title">
-                                                {tabData[activeTab].desktopDescription1}  {/* Changed - dynamic */}
+
+                                    {(tabData[activeTab].desktopImage1 || tabData[activeTab].desktopBullets1.length > 0) && (
+                                        <div className="bento-layout">
+                                            <div className="bento-container">
+                                                <ul className="bullets">
+                                                    <li><b>{tabData[activeTab].desktopTitle1}</b></li>
+                                                    {tabData[activeTab].desktopBullets1.map((bullet, index) => (
+                                                        <li key={index}>{bullet}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                            <div className="bento-img-content">
+                                                <img className='full-width' src={tabData[activeTab].desktopImage1} alt="" />
+                                                <div className="bento-title">
+                                                    {tabData[activeTab].desktopDescription1}
+                                                </div>
                                             </div>
                                         </div>
-
-                                    </div>
+                                    )}
                                 </div>
                             </div>
 

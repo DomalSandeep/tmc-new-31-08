@@ -9,7 +9,7 @@
   .columns {
     display: flex;
 
-    >div {
+    > div {
       padding-right: 150px;
 
       &:last-child {
@@ -41,8 +41,6 @@
       }
     }
   }
-
-
 
   h2 {
     font-family: $DM-Sans;
@@ -125,10 +123,9 @@
       gap: 60px;
 
       .desktop-col,
-      .mobile-col {}
+      .mobile-col {
+      }
     }
-
-
 
     &.bottom-space {
       padding-bottom: 40px;
@@ -155,8 +152,6 @@
       line-height: 100%;
       // margin-top: 10px;
     }
-
-    
   }
 
   .textcontent {
@@ -169,7 +164,7 @@
       margin-bottom: 25px;
     }
 
-    >div {
+    > div {
       padding-right: 50px;
 
       li {
@@ -212,19 +207,17 @@
     &.style1 {
       font-size: $fs-50;
     }
-
-
   }
 
   .title-big {
-      font-family: 'Playfair Display';
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 1.4;
-      letter-spacing: 0%;
-      color: #000000;
-      border-bottom: none ; 
-    }
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.4;
+    letter-spacing: 0%;
+    color: #000000;
+    border-bottom: none;
+  }
 
   h3 {
     color: #828282;
@@ -345,7 +338,7 @@
 .titlebdr {
   font-weight: 400;
   font-size: $fs-18;
-  border-bottom: solid 1px #8F8F8F;
+  border-bottom: solid 1px #8f8f8f;
   padding-bottom: 5px;
 
   &.upcase {
@@ -385,7 +378,7 @@
   justify-content: space-between;
   margin: 24px 0px 40px 0px;
 
-  >div {
+  > div {
     width: 48%;
   }
 }
@@ -434,7 +427,7 @@
     padding-bottom: 15px;
   }
 
-  >div {
+  > div {
     margin-right: 25px;
     padding: 20px 30px 25px 30px;
     background: #f8f8f8;
@@ -447,16 +440,14 @@
   }
 
   &.padbtm0 {
-    >div {
+    > div {
       padding-bottom: 0px;
     }
   }
 
-
-
   &.twocols,
   .cols2 {
-    >div {
+    > div {
       width: 50%;
 
       &:last-child {
@@ -475,7 +466,7 @@
   }
 
   &.wdauto {
-    >div {
+    > div {
       &:last-child {
         flex: none;
       }
@@ -506,7 +497,7 @@
     display: flex;
     justify-content: space-between;
 
-    >div {
+    > div {
       padding: 15px 25px;
 
       &:first-child {
@@ -515,7 +506,7 @@
     }
 
     &.extspace {
-      >div {
+      > div {
         margin-right: 35px;
       }
     }
@@ -530,7 +521,7 @@
         flex: auto;
       }
 
-      >div {
+      > div {
         width: 25%;
         margin-top: 30px;
       }
@@ -538,7 +529,7 @@
       &.cols2 {
         padding-top: 20px;
 
-        >div {
+        > div {
           width: 49.5%;
           padding-top: 0px;
         }
@@ -550,7 +541,7 @@
     }
 
     &.bdr {
-      >div {
+      > div {
         border-right: 1px solid #e5e5e5;
 
         &:last-child {
@@ -693,7 +684,7 @@
     justify-content: space-between;
   }
 
-  >div {
+  > div {
     padding-left: 75px;
     width: 30%;
 
@@ -703,7 +694,7 @@
   }
 
   &.nopad {
-    >div {
+    > div {
       padding-left: 0px;
       padding-right: 20px;
     }
@@ -716,13 +707,13 @@
   &.rows2 {
     padding-top: 25px;
 
-    >div {
+    > div {
       width: 50%;
     }
   }
 
   &.autowd {
-    >div {
+    > div {
       width: auto;
     }
   }
@@ -850,4 +841,83 @@ img.full-width {
     font-size: 4.6rem;
     margin-right: -40px;
   }
+}
+
+//Css for mobile view
+
+@media only screen and (max-width: 468px) {
+  .page-content {
+    padding-left: 0px;
+  }
+
+  .headTitleBg {
+    padding-left: 0px;
+  }
+
+  // .page-content h1 {
+  //   font-size: 4.6rem;
+  //   margin-right: -40px;
+  // }
+  .container {
+    padding: 0 20px;
+  }
+
+  .headTitleBg {
+    padding: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .imageWrapBg {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .imageWrapBg > div {
+    margin-right: 0px;
+  }
+
+  .page-content section .title {
+    margin-bottom: 20px;
+  }
+
+  .imageWrapBg2 {
+    margin-top: 10px;
+  }
+
+  .horizBullets2 {
+    flex-direction: column;
+  }
+
+  ul.bullets li {
+    margin-left: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .dashed-border {
+    padding-bottom: 20px !important;
+  }
+
+  .pt-40 {
+    padding-top: 20px !important;
+  }
+
+  .twocolumntext {
+    flex-direction: column;
+  }
+
+  .twocolumntext > div {
+    width: 100%;
+  }
+
+  ul.bullets li {
+    margin-left: 15px;
+  }
+
+  .headTitleBg h1{
+    padding-right: 20px;
+  }
+
 }

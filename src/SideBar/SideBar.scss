@@ -1,30 +1,28 @@
 .Sidebar {
-  background: #E6F0FF;
-  height: 100%;  
-    width: 280px;
+  background: #e6f0ff;
+  height: 100%;
+  width: 280px;
   overflow: auto;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 999999;
   padding-bottom: 50px;
+  transition: transform 0.3s ease;
 
   &::-webkit-scrollbar {
     display: none;
   }
-
-    scrollbar-width: none;
-
+  scrollbar-width: none;
 
   a {
     color: #333333;
-
     &.active {
       font-weight: 700;
       text-decoration: underline;
     }
   }
 
-  // Depth 0 — top level (Guidelines, Core Page Types, Core Components)
   [data-depth="0"] > li {
     padding: 20px 20px;
     text-transform: uppercase;
@@ -32,22 +30,17 @@
     border-top: solid 1px;
   }
 
-  // Depth 1 — children (1. Palettes, 2. Typography etc.)
   [data-depth="1"] {
     padding: 15px 0px 0px 15px;
     text-transform: initial;
-
     > li {
       padding-bottom: 20px;
-
       &:last-child {
         padding-bottom: 0;
       }
-
       a {
         text-transform: capitalize;
         display: flex;
-
         span:first-child {
           padding-right: 5px;
         }
@@ -55,20 +48,82 @@
     }
   }
 
-  // Depth 2 — subMenu (3.1 Text with media etc.)
   [data-depth="2"] {
     padding: 15px 0px 0px 15px;
-
     > li {
       padding-bottom: 15px;
-
       &:last-child {
         padding-bottom: 0;
       }
-
       a {
-        font-size:14px;
+        font-size: 14px;
       }
     }
+  }
+
+  @media only screen and (max-width: 468px) {
+    transform: translateX(-100%);
+    &.open {
+      transform: translateX(0);
+      box-shadow: 2px 0 20px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.hamburger-btn {
+  display: none;
+  position: fixed;
+  right: 15px;
+  z-index: 9999999;
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 20px;
+  cursor: pointer;
+
+  &.hidden {
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 468px) {
+    display: block;
+  }
+}
+
+.close-btn {
+  display: none;
+  position: absolute;
+  top: 1.5%;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  padding: 5px;
+
+  @media only screen and (max-width: 468px) {
+    display: block;
+  }
+}
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999998;
+
+  &.visible {
+    display: block;
+  }
+
+  @media only screen and (min-width: 469px) {
+    display: none !important;
   }
 }

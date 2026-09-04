@@ -67,7 +67,6 @@ import {InformationArchitecture} from './Components/InformationArchitecture';
 import {IAinner} from './Components/InformationArchitecture/IAinner';
 
 import { SideBar } from './SideBar';
-import { MainFooter } from './Components/MainFooter';
 
 const ErrorPage = () => {
   return <div>Error Page</div>;
@@ -164,7 +163,6 @@ const App = () => {
           </Routes>
         </ScrollToTop>
       </div>
-      {showFooter && <MainFooter />}
     </>
   );
 }

@@ -13,8 +13,10 @@ const IAinner = () => {
                 </div>
             </div>
             <div className='page-content padtp0'>
+                
                 <div className='container'>
-                    <p className="ia-description">Explore the complete site structure and content hierarchy designed <br /> for Tata Memorial Centre and its hospitals.</p>
+                <h2 className="title-big">Information Architecture</h2>
+                <p className="ia-description">Explore the complete site structure and content hierarchy designed <br/> for TATA Memorial Centre and its hospitals. This can serve as a <br/> reference for how information within your website can be organised<br/> to align with best user experience design standards. </p>
                     <div className='ia-buttons'>
                         <a href={excelUrl} download="information-architecture-tmc-and-hospitals.xlsx" className="btn-download">Download</a>
                         <a href="/information-architecture-tmc-and-hospitals.pdf" target="_blank" rel="noopener noreferrer" type="application/pdf" className="btn-view">View</a>

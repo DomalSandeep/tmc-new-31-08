@@ -48,7 +48,7 @@ const CoreComponents = () => {
               <Link to={'/core-components/success-confirmation-panel'}>25. Success Confirmation Panel</Link>
               <Link to={'/core-components/tabs'}>26. Tabs</Link>
               <Link to={'/core-components/table'}>27. Tables</Link>
-              <Link to={'/core-components/video-for-patient-support-centre'}>28. Video for patient support centre</Link>
+              <Link to={'/core-components/patient-support-centre'}>28. Patient support centre</Link>
               <Link to={'/core-components/wizard'}>29. Wizard</Link>
             </div>
           </div>

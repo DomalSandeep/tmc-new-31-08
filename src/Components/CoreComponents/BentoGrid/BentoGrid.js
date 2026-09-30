@@ -659,8 +659,6 @@ const BentoGrid = () => {
                         </div>
                     </section>
 
-
-
                     {/* ANATOMY Section with Tabs */}
                     <section>
                         <div className="titlebdr">ANATOMY OF {tabData[activeTab].label.toUpperCase()} BENTO GRID</div>

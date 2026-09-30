@@ -1,12 +1,47 @@
 @import "../../../var";
 
 .ImageryContent {
-  .example-images-grid {
-    margin-top: 40px;
+  .tab-switcher-container {
+    border-bottom: none;
+    margin-bottom: 0;
 
-    h2 {
-      margin-bottom: 24px;
+    .tab-switcher-header {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0;
     }
+
+    .tab-btn {
+      flex: 0 0 auto;
+      padding: 10px 20px;
+      border: 1px solid #c7c7c7;
+      border-radius: 50px;
+      color: #404040;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.4;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+
+      &::after {
+        content: none !important;
+        display: none !important;
+      }
+
+      &.active {
+        background: #0065b2;
+        border-color: #0065b2;
+        color: #ffffff;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .example-images-grid {
+    margin-top: 20px;
 
     .example-images {
       display: flex;
@@ -21,30 +56,20 @@
         gap: 10px;
 
         img {
-          width: calc(33.33% - 7px);
+            width: auto !important;
+          min-width: 0;
           height: auto;
           object-fit: cover;
         }
       }
-
-      > div:nth-child(2) {
-        img {
-          width: 100%;
-        }
-      }
-
-      > div:nth-child(3) {
-        img {
-          width: calc(50% - 5px);
-        }
-      }
-
-      > div:nth-child(4) {
-        img {
-          width: calc(33.33% - 7px);
-        }
-      }
     }
+  }
+}
 
+.no-extra-space {
+  section {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
   }
 }

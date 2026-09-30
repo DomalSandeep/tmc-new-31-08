@@ -104,7 +104,7 @@ const App = () => {
             <Route path="/guidelines/palettes" element={<Palettes />} />
             <Route path="/guidelines/typography" element={<Typography />} />
             <Route path="/guidelines/tone-of-voice" element={<ToneOfVoice />} />
-            <Route path="/guidelines/imagery" element={<Imagery />} />
+            <Route path="/guidelines/image-library" element={<Imagery />} />
             <Route path="/guidelines/navigation" element={<Navigation />} />
             <Route path="/guidelines/responsive-design" element={<ResponsiveDesign />} />
             <Route path="/guidelines/grids-and-spacing" element={<GridsAndSpacing />} />
